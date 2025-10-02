@@ -1,0 +1,144 @@
+# Example run:
+
+Enter your name: Alex
+Hello Alex!!
+
+====== Vehicle Renting System ======
+1. Rent a vehicle.
+2. Return a vehicle.
+3. Display Available Vehicles.
+4. Display Rented Vehicles.
+5. Exit.
+
+Enter your choice: 1
+
+------ You chose to rent a Vehicle ------
+What kind of vehicle would you like to rent?
+a. Car.
+b. Motorcycle.
+c. Truck.
+
+Enter your choice: a
+
+------ You chose to rent a car ------
+Available Cars:
+
+car
+Make: toyota
+model: camry
+year: 2020
+rent rate per day: 38
+number of doors: 4
+convertable: false
+fuel type: premium gas
+
+car
+Make: toyota
+model: supra
+year: 2017
+rent rate per day: 75
+number of doors: 2
+convertable: true
+fuel type: normal gas
+
+car
+Make: ford
+model: escape
+year: 2019
+rent rate per day: 50
+number of doors: 4
+convertable: false
+fuel type: normal gas
+
+car
+Make: ford
+model: mustang
+year: 2017
+rent rate per day: 69
+number of doors: 2
+convertable: true
+fuel type: premium gas
+
+car
+Make: honda
+model: accord
+year: 2021
+rent rate per day: 90
+number of doors: 4
+convertable: false
+fuel type: normal gas
+
+car
+Make: honda
+model: civic
+year: 2023
+rent rate per day: 120
+number of doors: 4
+convertable: false
+fuel type: normal gas
+
+Enter the car's make: ford
+Enter the car's model: escape
+Enter the rental duration in days: 6
+The total is: 300.0$
+Car rented successfully!!
+
+====== Vehicle Renting System ======
+1. Rent a vehicle.
+2. Return a vehicle.
+3. Display Available Vehicles.
+4. Display Rented Vehicles.
+5. Exit.
+
+Enter your choice: 4
+
+------ Rented Vehicles ------
+car
+Make: ford
+model: escape
+year: 2019
+rent rate per day: 50
+number of doors: 4
+convertable: false
+fuel type: normal gas
+
+====== Vehicle Renting System ======
+1. Rent a vehicle.
+2. Return a vehicle.
+3. Display Available Vehicles.
+4. Display Rented Vehicles.
+5. Exit.
+
+Enter your choice: 2
+
+------ You chose to return a Vehicle ------
+What kind of vehicle would you like to return?
+a. Car.
+b. Motorcycle.
+c. Truck.
+
+Enter your choice: a
+Enter the car's make: ford
+Enter the car's model: escape
+Car returned successfully. Thank you!
+
+====== Vehicle Renting System ======
+1. Rent a vehicle.
+2. Return a vehicle.
+3. Display Available Vehicles.
+4. Display Rented Vehicles.
+5. Exit.
+
+Enter your choice: 4
+
+------ Rented Vehicles ------
+
+====== Vehicle Renting System ======
+1. Rent a vehicle.
+2. Return a vehicle.
+3. Display Available Vehicles.
+4. Display Rented Vehicles.
+5. Exit.
+
+Enter your choice: 5
+Thank you for using the Vehicle Rental System. Goodbye!
